@@ -1,0 +1,30 @@
+{
+  "name": "RSSTelegram Bot",
+  "repository": "https://github.com/kristenleppel/rss2tele",
+  "stack": "container",
+  "keywords": [
+	"RSS",
+	"telegram", 
+	"RSS FEEDS"
+	],
+  "env": {
+     "Token": {
+      "description": "Telegram Bot Token -- @botfather, https://t.me/botfather",
+      "required": true
+    },
+     "chat_id": {
+      "description": "Your telegram chatid/userid",
+      "required": true
+	},
+	"delay": {
+      "description": "feed delay (in seconds)",
+      "value": "60"
+	}
+},
+"formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+		}
+	}
+}
