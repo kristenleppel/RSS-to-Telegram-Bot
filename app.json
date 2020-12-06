@@ -8,15 +8,15 @@
 	"RSS FEEDS"
 	],
   "env": {
-     "Token": {
+     "TOKEN": {
       "description": "Telegram Bot Token -- @botfather, https://t.me/botfather",
       "required": true
     },
-     "chat_id": {
+     "CHATID": {
       "description": "Your telegram chatid/userid",
       "required": true
 	},
-	"delay": {
+	"DELAY": {
       "description": "feed delay (in seconds)",
       "value": "60"
 	}
